@@ -1,4 +1,3 @@
-# robot goes forward and then slows to a stop when it detects something  
 
 import random
 import time
@@ -14,7 +13,7 @@ class GreatExpectations(Brain):
 
 	numGenes = 8
 	global hora;			hora = str(datetime.now().replace(second=0, microsecond=0))
-	global fichero;			fichero = open(hora + '--GreatExpectations.txt', 'w')
+	global fichero;			fichero = open('Logs/' + hora + '--GreatExpectations.txt', 'w')
 	global numParticiones;	numParticiones = 5
 	global numIndividuos;	numIndividuos = 50
 	global numElite;		numElite = 5		# Necesariamente menor que la mitad de numIndividuos
