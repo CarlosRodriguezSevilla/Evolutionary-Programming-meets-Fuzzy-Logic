@@ -1,2 +1,2 @@
-Evolutionary-Programming-meets-Fuzzy-Logic
+Evolutionary Programming meets Fuzzy Logic
 ==========================================
