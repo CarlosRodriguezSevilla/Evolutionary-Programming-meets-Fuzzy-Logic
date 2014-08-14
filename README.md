@@ -8,6 +8,9 @@ Evolutionary Programming meets Fuzzy Logic
 Evolution of a fuzzy controller for mobile robot guidance
 ----------------------------------------------------------
 
+A project for the Robotics course in the Technical University of Madrid
+
+
    **Simulator**: Pyro  
    **Robot**: PyrobotRobot60000.py  (Pioneer)  
    **World**: Light.py

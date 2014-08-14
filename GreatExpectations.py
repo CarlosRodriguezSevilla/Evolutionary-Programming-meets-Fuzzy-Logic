@@ -290,7 +290,7 @@ class GreatExpectations(Brain):
 		ax3.plot(ejeX, calidadMedia[0], label = "media elite")
 		ax4.plot(ejeX, calidadMedia[1], label = "media generacion")
 
-		fig2.savefig(hora + '--MediaCalidades')
+		fig2.savefig('Logs/' + hora + '--MediaCalidades')
 
 
 	def imprimeTOP(self):
@@ -330,7 +330,7 @@ class GreatExpectations(Brain):
 		ax2.plot(P[0][3][4:8], t, label="Der")
 		ax2.plot(P[0][4][4:8], t, label="Muy Der")
 
-		fig1.savefig(hora + '--MejorIndividuo')
+		fig1.savefig('Logs/' + hora + '--MejorIndividuo')
 
 
 	def determineMove(self):
