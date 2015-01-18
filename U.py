@@ -1,6 +1,4 @@
-'''
-Demo to show use of the engineering Formatter.
-'''
+
 from matplotlib import *
 import matplotlib.pyplot as plt
 import numpy as np
